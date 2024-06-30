@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter your first name"
+        android:drawableLeft="@drawable/baseline_person_24"
         android:layout_margin="10px"
         android:id="@+id/fname"/>
 
@@ -32,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter your last name"
+        android:drawableLeft="@drawable/baseline_person_24"
         android:layout_margin="10px"
         android:id="@+id/lname"/>
 
@@ -48,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="name of your college"
+        android:drawableLeft="@drawable/baseline_school_24"
         android:layout_margin="10px"
         android:id="@+id/clgname"/>
 
@@ -64,6 +67,7 @@
         android:layout_height="wrap_content"
         android:hint="format: dd-mm-yyyy"
         android:inputType="date"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
         android:layout_margin="10px"
         android:id="@+id/dob"/>
 
@@ -78,6 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter your course"
+        android:drawableLeft="@drawable/baseline_menu_book_24"
         android:layout_margin="10px"
         android:id="@+id/crsename"/>
 
@@ -92,6 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="mobile number"
+        android:drawableLeft="@drawable/baseline_call_24"
         android:layout_margin="10px"
         android:inputType="number"
         android:id="@+id/mob"/>
@@ -107,6 +113,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter your valid email"
+        android:drawableLeft="@drawable/baseline_attach_email_24"
         android:layout_margin="10px"
         android:id="@+id/mail"/>
 
@@ -123,6 +130,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter your permanent address"
+        android:drawableLeft="@drawable/baseline_person_pin_circle_24"
         android:layout_margin="10px"
         android:id="@+id/adrss"/>
 
