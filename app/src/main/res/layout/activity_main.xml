@@ -22,7 +22,7 @@
         android:layout_margin="10px"
         android:text="ADD STUDENT"
         android:textColor="#FAF5FAFA"
-        android:id="@+id/addbut"/>
+        android:id="@+id/addstudbut"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:layout_margin="10px"
         android:text="VIEW STUDENT"
         android:textColor="#FAF5FAFA"
-        android:id="@+id/viewbut"/>
+        android:id="@+id/viewstudbut"/>
 
 
 </LinearLayout>
