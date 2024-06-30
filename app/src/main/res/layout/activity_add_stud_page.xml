@@ -9,17 +9,92 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:text="First name"
         android:textSize="10pt"
         android:textColor="#0F0907"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter your name"
+        android:hint="enter your first name"
         android:layout_margin="10px"
-        android:id="@+id/name"/>
+        android:id="@+id/fname"/>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your last name"
+        android:layout_margin="10px"
+        android:id="@+id/lname"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College Name"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name of your college"
+        android:layout_margin="10px"
+        android:id="@+id/clgname"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of birth"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="format: dd-mm-yyyy"
+        android:inputType="date"
+        android:layout_margin="10px"
+        android:id="@+id/dob"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your course"
+        android:layout_margin="10px"
+        android:id="@+id/crsename"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mobile number"
+        android:layout_margin="10px"
+        android:inputType="number"
+        android:id="@+id/mob"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -40,91 +115,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mobile Number"
+        android:text="Address"
         android:textSize="10pt"
         android:textColor="#0F0907"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="mobile number"
+        android:hint="enter your permanent address"
         android:layout_margin="10px"
-        android:id="@+id/mob"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Username"
-        android:textSize="10pt"
-        android:textColor="#0F0907"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="This name can be seen by other users"
-        android:layout_margin="10px"
-        android:id="@+id/username"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Name"
-        android:textSize="10pt"
-        android:textColor="#0F0907"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your name"
-        android:layout_margin="10px"
-        android:id="@+id/name"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Email id"
-        android:textSize="10pt"
-        android:textColor="#0F0907"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your valid email"
-        android:layout_margin="10px"
-        android:id="@+id/mail"/>
-
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mobile Number"
-        android:textSize="10pt"
-        android:textColor="#0F0907"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="mobile number"
-        android:layout_margin="10px"
-        android:id="@+id/mob"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Username"
-        android:textSize="10pt"
-        android:textColor="#0F0907"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="This name can be seen by other users"
-        android:layout_margin="10px"
-        android:id="@+id/username"/>
+        android:id="@+id/adrss"/>
 
 
 

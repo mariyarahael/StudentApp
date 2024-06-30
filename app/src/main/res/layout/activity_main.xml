@@ -15,6 +15,13 @@
         android:textColor="#5D5336"
         android:layout_marginBottom="50px"/>
 
+    <ImageView
+        android:layout_width="1000px"
+        android:layout_height="450px"
+        android:layout_margin="20px"
+        android:background="@drawable/studentcollegelogo"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
