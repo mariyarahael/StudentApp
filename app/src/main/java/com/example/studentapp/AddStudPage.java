@@ -60,14 +60,14 @@ String apiUrl="https://courseapplogix.onrender.com/addstudents";
                  //creating json object
                 JSONObject stud= new JSONObject();
                 try {
-                    stud.put("firstname","getFName");
-                    stud.put("lastname","getLName");
-                    stud.put("college","getClgName");
-                    stud.put("dob","getDOB");
-                    stud.put("course","getCourseName");
-                    stud.put("mobile","getMobNum");
-                    stud.put("email","getEmailId");
-                    stud.put("address","getAddress");
+                    stud.put("firstname",getFName);
+                    stud.put("lastname",getLName);
+                    stud.put("college",getClgName);
+                    stud.put("dob",getDOB);
+                    stud.put("course",getCourseName);
+                    stud.put("mobile",getMobNum);
+                    stud.put("email",getEmailId);
+                    stud.put("address",getAddress);
                 } catch (JSONException e) {
                     throw new RuntimeException(e);
                 }
